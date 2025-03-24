@@ -27,9 +27,12 @@ function Foote() {
         </li>
         <li className='contacts'>
         <h2>Contacts</h2>
-        <a href="https://www.gmail.com/riyasham2151@gmail.com" target="_blank"><i class="ri-mail-fill"></i> Email</a><br />
+ <a href="mailto:riyasham2151@gmail.com" target="_blank">
+  <i class="ri-mail-fill"></i> Email
+</a>
+<br />
         <a href="https://www.linkedin.com/in/riya-sharma-01877a25b" target="_blank" style={{ display: 'inline-flex', alignItems: 'center' }}><FaLinkedin style={{ marginRight:'5px'}}/> LinkedIn</a><br/>
-        <a href="https://www.github.com/SafeApp" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+        <a href="https://www.github.com/Riyas2151" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
 
         </li>
     </div>
