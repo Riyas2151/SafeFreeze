@@ -1,0 +1,69 @@
+//https://images.unsplash.com/photo-1642427749670-f20e2e76ed8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGFic3RyYWN0JTIwZnVufGVufDB8fDB8fHww
+
+https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D
+
+
+https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg
+
+
+https://images.unsplash.com/photo-1652523229217-d043129f4331?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGFic3RyYWN0JTIwZnVufGVufDB8fDB8fHww
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div className="eyes w-full h-screen overflow-hidden">
+      <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D')] bg-cover bg-center relative">
+        <div className="top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] absolute flex gap-10">
+           <div className="w-[15vw] h-[15vw] flex justify-center items-center bg-zinc-100 rounded-full ">
+            {/* black circle */}
+              <div className="w-2/3 h-2/3 relative bg-zinc-900 rounded-full ">
+              {/* line causes rotation of inner dot */}
+              <div style={{transform: `translate(-50%, -50%)  rotate(${rotate}deg)`}} className="line w-full h-10 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
+                  {/* inner dot */}
+                   <div className="  w-[2vw] h-[2vw] bg-zinc-100 rounded-full "></div>
+              </div>
+              </div>
+          </div>
+          <div className="w-[15vw] h-[15vw] flex justify-center items-center bg-zinc-100 rounded-full ">
+             {/* black circle */}
+              <div className="w-2/3 h-2/3 relative bg-zinc-900 rounded-full ">
+               {/* line causes rotation of inner dot */}
+               <div style={{transform: `translate(-50%,-50%) rotate(${rotate}deg )`}} className="line w-full h-10 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
+                  {/* inner dot */}
+                   <div className="w-[2vw] h-[2vw] bg-zinc-100 rounded-full "></div>
+              </div>  
+              </div>
+          </div>
+          {/* <div className="text text-zinc-900 absolute  bottom-0 right-0 mx-8 text-6xl">
+          <h1>we have eye on every fraud</h1>
+        </div> */}
+        </div>
+
+      </div>
+    </div>
